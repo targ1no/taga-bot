@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100&display=swap');
+
+@keyframes btn {
+    from {
+        background-color: #EA5656;
+
+    }
+
+    to {
+        background-color: #535353;
+    }
+}
+
+@keyframes bot {
+    from {
+        width: 1300px;
+    }
+
+    to {
+        width: 1000px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.start-btn, .section-modes-title, .section-modes {
+    font-family: 'Press Start 2P';
+}
+
+.infos {
+    font-family: 'Saira';
+}
+
+body {
+    background: linear-gradient(90deg, #EB5757 0%, #2C1111 100%);
+    color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 130px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+nav > a {
+    font-family: 'Press Start 2P';
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.bot-title {
+    width: 1000px;
+    animation-name: bot;
+    animation-duration: 0.2s;
+}
+
+ #section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.section-bot-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-btn {
+    cursor: pointer;
+    width: 250px;
+    background-color: #EA5656;
+    border: none;
+    color: #FFFFFF;
+    padding: 20px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    animation-name: btn;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    font-size: large;
+}
+
+#section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-modes-title {
+    background-color: #EA5656;
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 60px;
+}
+
+.section-modes-title:hover {
+    padding: 25px;
+    transition: 0.3s;
+}
+
+hr {
+    width: 350px;
+}
+
+ul > li {
+    list-style: none;
+    padding: 12px;
+    text-align: justify;
+}
+
+footer {
+    height: 50px;
+    background: linear-gradient(90.32deg, rgba(47, 47, 47, 0.34) 0%, rgba(134, 115, 115, 0.34) 99.29%);
+    margin-top: 150px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer {
+    width: 100px;
+}
+
