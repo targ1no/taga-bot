@@ -149,7 +149,7 @@ hr {
     width: 400px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (min-width: 200px) and (max-width: 425px) {
 
     @keyframes bot {
     
@@ -186,7 +186,7 @@ hr {
     }
 
     hr {
-        width: 335px;
+        width: 200px;
     }
 
 }
